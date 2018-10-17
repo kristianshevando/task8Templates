@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "resourceName": {
-            "value": "kristianKubernetesCluster"
+            "value": "kristianCluster"
         },
         "location": {
             "value": "westeurope"
@@ -47,7 +47,7 @@
             "value": "kubenet"
         },
         "enableRBAC": {
-            "value": true
+            "value": false
         }
     }
 }
