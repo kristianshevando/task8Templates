@@ -35,7 +35,7 @@
             "value": "DefaultWorkspace-ae8ab787-c66f-4733-aed2-228ab3e8523b-WEU"
         },
         "omsWorkspaceId": {
-            "value": "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-ae8ab787-c66f-4733-aed2-228ab3e8523b-WEU"
+            "value": "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/KristianRG/providers/Microsoft.OperationalInsights/workspaces/Workspace"
         },
         "workspaceRegion": {
             "value": "westeurope"
