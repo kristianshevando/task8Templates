@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "kristianKubernetesCluster"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "dnsPrefix": {
+            "value": "epam"
+        },
+        "agentCount": {
+            "value": 2
+        },
+        "agentVMSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "servicePrincipalClientId": {
+            "value": "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
+        },
+        "servicePrincipalClientSecret": {
+            "reference":  {
+                "keyVault":  {
+                  "id":  "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/KristianRG/providers/Microsoft.KeyVault/vaults/kristianVault"
+                  },
+                "secretName":  "kristianSecret"
+        }
+        },
+        "kubernetesVersion": {
+            "value": "1.11.3"
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-ae8ab787-c66f-4733-aed2-228ab3e8523b-WEU"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-ae8ab787-c66f-4733-aed2-228ab3e8523b-WEU"
+        },
+        "workspaceRegion": {
+            "value": "westeurope"
+        },
+        "enableHttpApplicationRouting": {
+            "value": true
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        }
+    }
+}
