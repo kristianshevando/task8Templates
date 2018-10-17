@@ -29,10 +29,10 @@
             "value": "1.11.3"
         },
         "workspaceName": {
-            "value": "Workspace"
+            "value": "AstroworldWorkspace"
         },
         "omsWorkspaceId": {
-            "value": "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/KristianRG/providers/Microsoft.OperationalInsights/workspaces/KristianWorkspace"
+            "value": "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/KristianRG/providers/Microsoft.OperationalInsights/workspaces/AstroworldWorkspace"
         },
         "workspaceRegion": {
             "value": "westeurope"
