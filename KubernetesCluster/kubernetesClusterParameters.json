@@ -5,9 +5,6 @@
         "resourceName": {
             "value": "kristianCluster"
         },
-        "location": {
-            "value": "westeurope"
-        },
         "dnsPrefix": {
             "value": "epam"
         },
