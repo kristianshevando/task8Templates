@@ -18,7 +18,12 @@
             "value": "1b074069-a357-43d3-8f89-ab289b650b4b"
         },
         "servicePrincipalClientSecret": {
-            "value": "3e2aedd6-038b-4473-854f-dd748f69143f"
+            "reference":  {
+                "keyVault":  {
+                  "id":  "/subscriptions/ae8ab787-c66f-4733-aed2-228ab3e8523b/resourceGroups/KristianRG/providers/Microsoft.KeyVault/vaults/kristianVaultTask8"
+                  },
+                "secretName":  "kristianSecret"
+        }
         },
         "kubernetesVersion": {
             "value": "1.11.3"
